@@ -1,0 +1,461 @@
+* {
+    font-family: "Poppins", serif;
+
+}
+
+body{
+    background-color:rgb(23, 22, 22);
+    
+    display: flex;
+    justify-content: center;
+}
+
+.first{
+    display: flex;
+    gap: 190px;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    z-index: 999999999999999999999999999999999999999999999999999999999999999999999999;
+    background-color: gray;
+    width: 100%;
+  margin-top: 30px;
+    height: 45px;
+    font-weight: bold;
+    font-size: larger;
+}
+.third{
+    margin-top: 80px;
+}
+
+.second1{
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    margin-top: -15px;
+    
+    position: fixed;
+    z-index: 999999999999999999999999999999999999999999999999999999999999999999999999999999999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+    color: gray;
+    
+}
+#nn  {
+    color: gray;
+    font-size: x-large;
+
+}
+#nn:hover{
+ color: yellow;
+ transition: 2s;
+}
+
+
+.first h1{
+    margin-top: 8px;
+    color: greenyellow;
+    
+}
+ul{
+    display: flex;
+    gap: 65px;
+  
+}
+a{
+    text-decoration:none;
+    color: white;
+}
+li{
+    list-style: none;
+
+}
+
+
+.second{
+    margin-top: 10%;
+}
+.second h4{
+
+color: yellow;
+font-size: 20px;
+}
+.second h2{
+    
+    color: gray;
+}
+.second h3{
+    
+    color: red;
+    font-size: 25px;
+    margin-top:-16px;
+}
+.second pre{
+    
+    color: white;
+}
+.d{
+    display: flex;
+    gap: 40px;
+}
+.b button{
+    height: 40px;
+    width: 100px;
+    border-radius: 5px;
+    background-color: purple;
+    color: white;
+ border: transparent;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+
+}
+.b button:hover{
+    background-color: red;
+    transition: 0.5s;
+}
+.c button{
+    height: 40px;
+    width: 150px;
+    border-radius: 5px;
+    background-color: purple;
+    color: white;
+    border: transparent;
+    display: flex;
+ justify-content: center;
+ align-items: center;
+ 
+
+   
+}
+.c button:hover{
+    background-color: red;
+    transition: 0.3s;
+}
+.fourth{
+    display: flex;
+   
+    gap: 90px;
+    
+}
+img{
+    opacity: 0.7;
+    
+}
+.z{
+    height: 200px;
+    width: 100%;
+    background-color:rgb(23, 22, 22) ;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.zz{
+    height: 170px;
+    width: 18%;
+    background-color: rgb(23, 22, 22);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 5px 5px 5px 5px black;
+  
+
+}
+#yy{
+    font-size: 100px;
+    color: gray;
+    margin-top: 15px;
+   
+
+}
+
+#yy:hover{
+    color: yellow;
+    text-decoration: none;
+   
+   
+    transition: 2s;
+
+}
+#mm{
+    font-size: x-large;
+text-decoration: none;
+
+}
+.z{
+    height: 200px;
+    width: 100%;
+    background-color:rgb(23, 22, 22) ;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.zz{
+    height: 170px;
+    width: 18%;
+    background-color: rgb(23, 22, 22);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 5px 5px 5px 5px black;
+   
+  
+
+}
+
+   
+   
+  
+
+
+#mm{
+    font-size: x-large;
+text-decoration: none;
+
+}
+.table{
+    height: 300px;
+    width: 100%;
+    background-color:  rgb(23, 22, 22);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+    font-size: 100px;
+}
+.get{
+    height: 500px;
+    width: 100%;
+    background-color:rgb(23, 22, 22) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+
+}
+.get1{
+    height: 400px;
+    width: 30%;
+    background-color: rgb(23, 22, 22);
+    box-shadow: 5px 5px 5px 5px black;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: relative;
+    bottom: 0;
+    transition: 0.5s all ease-in-out;
+}
+
+.get1::after {
+    content: '';
+    position: absolute;
+    background-color: white;
+    opacity: 0;
+    height: 100%;
+    width: 100%;
+    transition: 1s ease-in;
+}
+
+.get2{
+    height: 90px;
+    width: 80%;
+    background-color:  rgb(23, 22, 22);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 70px;
+
+}
+.get3{
+    height:250px ;
+    width: 90%;
+    background-color:  rgb(23, 22, 22);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: white;
+    /* text-decoration: none; */
+}
+
+
+.get2 a, .get3 a {
+    text-decoration: none;
+}
+
+.get1:hover {
+    /* position: relative; */
+    bottom: 20px;
+}
+
+.get1:hover::after {
+    opacity: 0.2;
+}
+
+.tt {
+    position: relative;
+    padding-bottom: 25px;
+}
+
+.tt a::after {
+    position: absolute;
+    content: "";
+    height: 5px;
+    width: 60px;
+    background-color: yellow;
+    bottom: 15px;
+    left: 50%;
+    transform: translateX(-29px);
+    border-radius: 10px;
+    transition: 0.5s all ease-in-out;
+}
+
+.tt {
+    min-width: 105px;
+    text-align: center;
+}
+
+.tt a:hover::after {
+    left: 10%;
+    width: 130%;
+}
+.table1{
+    height: 300px;
+    width: 100%;
+    background-color:  rgb(23, 22, 22);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+    font-size: 100px;
+    animation-name: BIPLOV;
+    animation-duration: 3s;
+    
+}
+.got{
+    height: 500px;
+    width: 100%;
+    background-color:rgb(23, 22, 22) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+
+}
+.got a {
+    text-decoration: none;
+}
+.got1{
+    height: 400px;
+    width: 30%;
+    background-color: rgb(23, 22, 22);
+    box-shadow: 5px 5px 5px 5px black;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+   
+}
+
+
+.got2{
+    height: 90px;
+    width: 80%;
+    background-color:  rgb(23, 22, 22);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: white;
+    
+    font-weight: bolder;
+    font-size: 70px;
+
+}
+.got3{
+    height:250px ;
+    width: 90%;
+    background-color:  rgb(23, 22, 22);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: white;
+    /* text-decoration: none; */
+}
+
+
+.contact{
+    height: 500px;
+    width: 100%;
+    background-color: rgb(23, 22, 22);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.con{
+    height: 490px;
+    width: 96%;
+    background-color: rgb(23, 22, 22);
+    box-shadow: 5px 5px 5px 5px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.con1{
+    height: 100px;
+    color: white;
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+
+ input, textarea{
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+    margin-top: 5%;
+    background-color: black;
+    border: white 0.01px solid;
+    color: white;
+    font-size: 20px;
+    margin-left: 25%;
+    border-radius: 5px;
+    
+}
+button{
+   
+    margin-left: 25%;
+    width: 80%;
+    margin-top: 20px;
+    height: 50px;
+}
+button:hover{
+    background-color: aqua;
+}
+
+@keyframes BIPLOV {
+    from{
+transform: translateY(2200px);
+animation-fill-mode: both;
+
+    }
+    to{
+
+    }
+}
